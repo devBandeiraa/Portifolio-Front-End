@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível
@@ -23,14 +28,22 @@
                 colocarem em prática boas ideias. Vamos
                 conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/jgbandeira__/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/devBandeiraa">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/devBandeiraa">
+                    <img src="assets/github.png" alt="Logo GitHub">
+                GitHub</a>
+
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/jhordan-bandeira/">
+                    <img src="assets/linkedin.png" alt="Logo linkedin">
+                Linkedin</a>
             </div>
         </section>
-        <img class="foto-perfil" src="fotoPerfilPro.jpeg" alt="Foto de perfil de Jhordan">
+        <img class="foto-perfil" src="/assets/fotoPerfilPro.jpeg" alt="Foto de perfil de Jhordan">
 
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Jhordan Bandeira.</p>
+    </footer>
 </body>
 
 </html>
